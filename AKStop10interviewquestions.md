@@ -1,4 +1,5 @@
 <a href="http://djangoblogv2.azurewebsites.net" class="button big">Go Home</a>
+<a href="#" class="button big">Create Project</a>
 
 ## Top 10 Interview Questions on AKS
 
