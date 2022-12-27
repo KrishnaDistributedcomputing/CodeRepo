@@ -1,3 +1,5 @@
+<a href="http://djangoblogv2.azurewebsites.net" class="button big">Go Home</a>
+
 ## Top 10 Interview Questions on AKS
 
   ### What is AKS and how does it compare to other managed Kubernetes offerings?
