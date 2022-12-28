@@ -1,3 +1,5 @@
+## = Vs == Javascript Operator
+
 In JavaScript, = is used for assignment, == is used for comparison, and === is used for strict comparison.
 
 Here is an example of how these operators might be used:
