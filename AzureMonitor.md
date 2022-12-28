@@ -1,4 +1,5 @@
-Azure Monitor
+## Azure Monitor
+
 Azure Monitor is a service provided by Microsoft Azure that enables you to monitor the health and performance of your Azure resources. It provides data and actionable insights to monitor your applications, infrastructure, and network.
 
 Azure Monitor is a service provided by Microsoft Azure that enables you to monitor the health and performance of your Azure resources. It provides data and actionable insights to monitor your applications, infrastructure, and network.
@@ -20,7 +21,7 @@ Flow log collection can occur at a 1-minute or 5-minute interval.
 Flow logs have a retention feature that allows them to be automatically deleted after 90 days of their creation.
 
 Sample Powershell script
-        
+  ```ps
         # Install the Azure Resource Manager PowerShell module
         Install-Module -Name AzureRM
 
@@ -43,7 +44,8 @@ Sample Powershell script
         Get-AzureRmNetworkWatcherFlowLog -NetworkWatcher "MyNetworkWatcher" -ResourceGroupName "MyResourceGroup"
 
         # Diagnose and resolve network performance issues
-        Troubleshoot-AzureRmNetworkWatcherConnection -NetworkWatcher "MyNetworkWatcher" -ResourceGroupName "MyResourceGroup" -Protocol TCP -LocalIPAddress "10.0.0.4" -RemoteIPAddress "10.0.0.5" -RemotePort 80
+        Troubleshoot-AzureRmNetworkWatcherConnection -NetworkWatcher "MyNetworkWatcher" -ResourceGroupName "MyResourceGroup" -Protocol TCP -LocalIPAddress "10.0.0.4" -         RemoteIPAddress "10.0.0.5" -RemotePort 80
+ ```
         
         
 What does the code do?
