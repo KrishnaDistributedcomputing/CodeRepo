@@ -2,7 +2,7 @@ In JavaScript, = is used for assignment, == is used for comparison, and === is u
 
 Here is an example of how these operators might be used:
 
-```script
+```js
 let x = 5; // assignment
 
 if (x == 5) { // comparison
