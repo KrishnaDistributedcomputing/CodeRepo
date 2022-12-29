@@ -48,10 +48,10 @@ These are just a few examples of the many commands that are available with the A
 
 ### Answers:-
 
-1. What is Chocolatey and how does it work?
+## 1. What is Chocolatey and how does it work?
 Chocolatey is a package manager for Windows that allows you to install software packages from a central repository using the command line. It simplifies the process of installing and updating software by automating the process of downloading, extracting, and installing packages from a central repository.
 
-2. How can Chocolatey be used to install and manage software packages on a Windows machine?
+## 2. How can Chocolatey be used to install and manage software packages on a Windows machine?
 To install a software package using Chocolatey, you can use the "choco install" command followed by the name of the package you want to install. For example, to install the Azure CLI, you can use the following command:
 
 ```
@@ -63,13 +63,13 @@ To update a package that has already been installed using Chocolatey, you can us
 choco upgrade azure-cli
 ```
 
-3. What is Azure and how does it relate to cloud computing?
+## 3. What is Azure and how does it relate to cloud computing?
 Azure is a cloud computing platform and infrastructure created by Microsoft for building, deploying, and managing applications and services through a global network of Microsoft-managed data centers. It provides a range of cloud computing services, including virtual machines, storage, and networking, as well as a range of tools and services for developing and managing applications.
 
-4. How can Chocolatey be used to install and manage tools or libraries that are required for developing or deploying applications to Azure?
+## 4. How can Chocolatey be used to install and manage tools or libraries that are required for developing or deploying applications to Azure?
 Chocolatey can be used to install and manage tools or libraries that are required for developing or deploying applications to Azure. For example, you might use Chocolatey to install the Azure CLI, which is a set of command-line tools that you can use to manage Azure resources, or to install a specific version of the .NET framework, which might be required to run an application that is deployed to Azure.
 
-5.How can the Azure CLI be used to manage Azure resources from the command line?
+## 5.How can the Azure CLI be used to manage Azure resources from the command line?
 The Azure CLI is a set of command-line tools that you can use to manage Azure resources. It provides a range of commands for creating, modifying, and deleting resources such as virtual machines, storage accounts, and resource groups.
 
 ### Here are some examples of how you can use the Azure CLI to manage Azure resources:
@@ -88,11 +88,11 @@ az group create --name myResourceGroup --location eastus
 az vm create --resource-group myResourceGroup --name myVM --image UbuntuLTS --generate-ssh-keys
 ```
 
-6.How can Chocolatey be used to automate the deployment of Azure resources?
+## 6.How can Chocolatey be used to automate the deployment of Azure resources?
 
 Chocolatey can be used to automate the deployment of Azure resources by using scripts or configuration management tools such as Ansible or Puppet. For example, you might create a script that uses the Azure CLI to create a resource group and deploy a virtual machine, and then use Chocolatey to run the script as part of an automated deployment process.
 
-7.How can you troubleshoot issues that might arise when using Chocolatey to install or manage packages on a Windows machine?
+## 7.How can you troubleshoot issues that might arise when using Chocolatey to install or manage packages on a Windows machine?
 
 There are several approaches you can take to troubleshoot issues that might arise when using Chocolatey to install or manage packages on a Windows machine:
 
@@ -112,7 +112,7 @@ Chocolatey can be used in conjunction with other DevOps tools, such as Jenkins o
 
 You can also use Chocolatey in combination with configuration management tools, such as Ansible or Puppet, to automate the deployment and configuration of software on Azure virtual machines. This can help ensure that the software is consistently installed and configured across multiple machines, making it easier to manage and maintain your Azure environment.
 
-10.How can you use Chocolatey to manage the software dependencies of applications that are deployed to Azure?
+## 10.How can you use Chocolatey to manage the software dependencies of applications that are deployed to Azure?
 
 Chocolatey can be used to manage the software dependencies of applications that are deployed to Azure. For example, you might use Chocolatey to install and manage the dependencies of a .NET application that is deployed to an Azure virtual machine. This can help ensure that all of the necessary software is installed and configured correctly on the machine, and can make it easier to maintain and update the application over time.
 
