@@ -92,7 +92,7 @@ az vm create --resource-group myResourceGroup --name myVM --image UbuntuLTS --ge
 
 Chocolatey can be used to automate the deployment of Azure resources by using scripts or configuration management tools such as Ansible or Puppet. For example, you might create a script that uses the Azure CLI to create a resource group and deploy a virtual machine, and then use Chocolatey to run the script as part of an automated deployment process.
 
-7. How can you troubleshoot issues that might arise when using Chocolatey to install or manage packages on a Windows machine?
+7.How can you troubleshoot issues that might arise when using Chocolatey to install or manage packages on a Windows machine?
 
 There are several approaches you can take to troubleshoot issues that might arise when using Chocolatey to install or manage packages on a Windows machine:
 
