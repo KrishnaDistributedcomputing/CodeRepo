@@ -71,20 +71,20 @@ Chocolatey can be used to install and manage tools or libraries that are require
 5.How can the Azure CLI be used to manage Azure resources from the command line?
 The Azure CLI is a set of command-line tools that you can use to manage Azure resources. It provides a range of commands for creating, modifying, and deleting resources such as virtual machines, storage accounts, and resource groups.
 
-### Here are some examples of how you can use the Azure CLI to manage Azure resources:
+        ### Here are some examples of how you can use the Azure CLI to manage Azure resources:
 
-List all of the resource groups in your Azure subscription:
-```
-az group list
-```
-Create a new resource group:
-```
-az group create --name myResourceGroup --location eastus
-```
-Deploy a new virtual machine:
-```
-az vm create --resource-group myResourceGroup --name myVM --image UbuntuLTS --generate-ssh-keys
-```
+        #### List all of the resource groups in your Azure subscription:
+        ```ps
+        az group list
+        ```
+       #### Create a new resource group:
+        ```ps
+        az group create --name myResourceGroup --location eastus
+        ```
+        #### Deploy a new virtual machine:
+        ```ps
+        az vm create --resource-group myResourceGroup --name myVM --image UbuntuLTS --generate-ssh-keys
+        ```
 
 6. How can Chocolatey be used to automate the deployment of Azure resources?
 Chocolatey can be used to automate the deployment of Azure resources by using scripts or configuration management tools such as Ansible or Puppet. For example, you might create a script that uses the Azure CLI to create a resource group and deploy a virtual machine, and then use Chocolatey to run the script as part of an automated deployment process.
