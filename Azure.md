@@ -10,7 +10,7 @@ For example, you might use Chocolatey to install the Azure CLI (Command Line Int
 
 To install the Azure CLI using Chocolatey, you can use the following command:
 
-```cli
+```ps
 choco install azure-cli
 ```
 This will install the Azure CLI and all of its dependencies using Chocolatey. Once the installation is complete, you can use the Azure CLI by opening a command prompt and typing "az".
