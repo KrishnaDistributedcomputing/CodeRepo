@@ -68,7 +68,7 @@ Azure is a cloud computing platform and infrastructure created by Microsoft for 
 4. How can Chocolatey be used to install and manage tools or libraries that are required for developing or deploying applications to Azure?
 Chocolatey can be used to install and manage tools or libraries that are required for developing or deploying applications to Azure. For example, you might use Chocolatey to install the Azure CLI, which is a set of command-line tools that you can use to manage Azure resources, or to install a specific version of the .NET framework, which might be required to run an application that is deployed to Azure.
 
-5. How can the Azure CLI be used to manage Azure resources from the command line?
+5.How can the Azure CLI be used to manage Azure resources from the command line?
 The Azure CLI is a set of command-line tools that you can use to manage Azure resources. It provides a range of commands for creating, modifying, and deleting resources such as virtual machines, storage accounts, and resource groups.
 
         ### Here are some examples of how you can use the Azure CLI to manage Azure resources:
@@ -87,7 +87,7 @@ The Azure CLI is a set of command-line tools that you can use to manage Azure re
         az vm create --resource-group myResourceGroup --name myVM --image UbuntuLTS --generate-ssh-keys
         ```
 
-6. How can Chocolatey be used to automate the deployment of Azure resources?
+6.How can Chocolatey be used to automate the deployment of Azure resources?
 
 Chocolatey can be used to automate the deployment of Azure resources by using scripts or configuration management tools such as Ansible or Puppet. For example, you might create a script that uses the Azure CLI to create a resource group and deploy a virtual machine, and then use Chocolatey to run the script as part of an automated deployment process.
 
@@ -99,19 +99,19 @@ There are several approaches you can take to troubleshoot issues that might aris
 * Use the "choco uninstall" command followed by the name of the package to remove the package and any of its dependencies, and then try re-installing the package to see if the issue persists.
 * Check the Chocolatey community forums or other online resources for information about known issues or potential solutions to problems you might be experiencing.
        
-8. How can you use Chocolatey to create and manage package repositories for your organization?
+8.How can you use Chocolatey to create and manage package repositories for your organization?
 
 Chocolatey provides a number of options for creating and managing package repositories for your organization. One option is to use Chocolatey's built-in package repository, which is hosted by Chocolatey and can be accessed by all Chocolatey users. You can use this repository to publish and share packages with your team or organization.
 
 Another option is to use a private package repository, which is hosted on your own servers and is only accessible to your organization. You can use tools such as ProGet or MyGet to create and manage private package repositories for Chocolatey packages.
 
-9. How can you use Chocolatey in conjunction with other DevOps tools, such as Jenkins or Azure DevOps, to automate the delivery and management of software in an Azure environment?
+9.How can you use Chocolatey in conjunction with other DevOps tools, such as Jenkins or Azure DevOps, to automate the delivery and management of software in an Azure environment?
 
 Chocolatey can be used in conjunction with other DevOps tools, such as Jenkins or Azure DevOps, to automate the delivery and management of software in an Azure environment. For example, you might use Jenkins to automate the building and testing of software packages, and then use Chocolatey to automatically install the packages on Azure virtual machines as part of a continuous deployment process.
 
 You can also use Chocolatey in combination with configuration management tools, such as Ansible or Puppet, to automate the deployment and configuration of software on Azure virtual machines. This can help ensure that the software is consistently installed and configured across multiple machines, making it easier to manage and maintain your Azure environment.
 
-10. How can you use Chocolatey to manage the software dependencies of applications that are deployed to Azure?
+10.How can you use Chocolatey to manage the software dependencies of applications that are deployed to Azure?
 
 Chocolatey can be used to manage the software dependencies of applications that are deployed to Azure. For example, you might use Chocolatey to install and manage the dependencies of a .NET application that is deployed to an Azure virtual machine. This can help ensure that all of the necessary software is installed and configured correctly on the machine, and can make it easier to maintain and update the application over time.
 
