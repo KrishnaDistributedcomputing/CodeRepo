@@ -50,17 +50,17 @@ These are just a few examples of the many commands that are available with the A
 1. What is Chocolatey and how does it work?
 Chocolatey is a package manager for Windows that allows you to install software packages from a central repository using the command line. It simplifies the process of installing and updating software by automating the process of downloading, extracting, and installing packages from a central repository.
 
-2.How can Chocolatey be used to install and manage software packages on a Windows machine?
+2. How can Chocolatey be used to install and manage software packages on a Windows machine?
 To install a software package using Chocolatey, you can use the "choco install" command followed by the name of the package you want to install. For example, to install the Azure CLI, you can use the following command:
 
-```
-choco install azure-cli
-```
-To update a package that has already been installed using Chocolatey, you can use the "choco upgrade" command followed by the name of the package. For example:
+        ```
+        choco install azure-cli
+        ```
+        To update a package that has already been installed using Chocolatey, you can use the "choco upgrade" command followed by the name of the package. For example:
 
-```
-choco upgrade azure-cli
-```
+        ```
+        choco upgrade azure-cli
+        ```
 
 3. What is Azure and how does it relate to cloud computing?
 Azure is a cloud computing platform and infrastructure created by Microsoft for building, deploying, and managing applications and services through a global network of Microsoft-managed data centers. It provides a range of cloud computing services, including virtual machines, storage, and networking, as well as a range of tools and services for developing and managing applications.
@@ -68,7 +68,7 @@ Azure is a cloud computing platform and infrastructure created by Microsoft for 
 4. How can Chocolatey be used to install and manage tools or libraries that are required for developing or deploying applications to Azure?
 Chocolatey can be used to install and manage tools or libraries that are required for developing or deploying applications to Azure. For example, you might use Chocolatey to install the Azure CLI, which is a set of command-line tools that you can use to manage Azure resources, or to install a specific version of the .NET framework, which might be required to run an application that is deployed to Azure.
 
-5.How can the Azure CLI be used to manage Azure resources from the command line?
+5. How can the Azure CLI be used to manage Azure resources from the command line?
 The Azure CLI is a set of command-line tools that you can use to manage Azure resources. It provides a range of commands for creating, modifying, and deleting resources such as virtual machines, storage accounts, and resource groups.
 
         ### Here are some examples of how you can use the Azure CLI to manage Azure resources:
@@ -91,16 +91,17 @@ The Azure CLI is a set of command-line tools that you can use to manage Azure re
 
         Chocolatey can be used to automate the deployment of Azure resources by using scripts or configuration management tools such as Ansible or Puppet. For example, you might create a script that uses the Azure CLI to create a resource group and deploy a virtual machine, and then use Chocolatey to run the script as part of an automated deployment process.
 
-7.How can you troubleshoot issues that might arise when using Chocolatey to install or manage packages on a Windows machine?
+7. How can you troubleshoot issues that might arise when using Chocolatey to install or manage packages on a Windows machine?
 
         There are several approaches you can take to troubleshoot issues that might arise when using Chocolatey to install or manage packages on a Windows machine:
 
         * Check the Chocolatey log file, which is located at C:\ProgramData\chocolatey\logs\chocolatey.log, for error messages or other diagnostic information that can help identify the cause of the issue.
         * Use the "choco uninstall" command followed by the name of the package to remove the package and any of its dependencies, and then try re-installing the package to see if the issue persists.
         * Check the Chocolatey community forums or other online resources for information about known issues or potential solutions to problems you might be experiencing.
-        How can you use Chocolatey to create and manage package repositories for your organization?
+       
+8. How can you use Chocolatey to create and manage package repositories for your organization?
 
-8. Chocolatey provides a number of options for creating and managing package repositories for your organization. One option is to use Chocolatey's built-in package repository, which is hosted by Chocolatey and can be accessed by all Chocolatey users. You can use this repository to publish and share packages with your team or organization.
+        Chocolatey provides a number of options for creating and managing package repositories for your organization. One option is to use Chocolatey's built-in package repository, which is hosted by Chocolatey and can be accessed by all Chocolatey users. You can use this repository to publish and share packages with your team or organization.
 
         Another option is to use a private package repository, which is hosted on your own servers and is only accessible to your organization. You can use tools such as ProGet or MyGet to create and manage private package repositories for Chocolatey packages.
 
