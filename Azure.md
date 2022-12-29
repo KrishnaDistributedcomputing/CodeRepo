@@ -1,4 +1,10 @@
 
+## Introducing Choclatley
+
+Chocolatey is a package manager for Windows that allows users to install, update, and manage software packages from the command line. It is similar to package managers for other operating systems, such as apt-get for Linux and Homebrew for macOS, in that it allows users to easily install and manage software packages from a central repository.
+
+In the context of Azure, Chocolatey can be used to install and manage software packages on virtual machines or other computing resources that are running on Azure. For example, if you want to install a specific version of a software package on an Azure virtual machine, you could use Chocolatey to search for the package, download it, and install it on the machine. Chocolatey can also be used to automate the installation and management of software packages across multiple Azure resources, making it a useful tool for developers and system administrators who are working with Azure.
+
 ## What is Choclatley
 
 
