@@ -10,19 +10,20 @@ For example, you might use Chocolatey to install the Azure CLI (Command Line Int
 
 To install the Azure CLI using Chocolatey, you can use the following command:
 
-```powershell
+``` 
 choco install azure-cli
 ```
-This will install the Azure CLI and all of its dependencies using Chocolatey. Once the installation is complete, you can use the Azure CLI by opening a command prompt and typing "az".
+This will install the Azure CLI and all of its dependencies using Chocolatey. Once the installation is complete,
+you can use the Azure CLI by opening a command prompt and typing "az".
 
 Here are some examples of how you can use the Azure CLI to manage Azure resources:
 
 List all of the resource groups in your Azure subscription:
-```cli
+``` 
 az group list
 ```
 Create a new resource group:
-```cli
+``` 
 az group create --name myResourceGroup --location eastus
 ```
 Deploy a new virtual machine:
