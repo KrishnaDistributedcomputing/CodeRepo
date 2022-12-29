@@ -100,13 +100,13 @@ There are several approaches you can take to troubleshoot issues that might aris
 * Use the "choco uninstall" command followed by the name of the package to remove the package and any of its dependencies, and then try re-installing the package to see if the issue persists.
 * Check the Chocolatey community forums or other online resources for information about known issues or potential solutions to problems you might be experiencing.
        
-8.How can you use Chocolatey to create and manage package repositories for your organization?
+## 8.How can you use Chocolatey to create and manage package repositories for your organization?
 
 Chocolatey provides a number of options for creating and managing package repositories for your organization. One option is to use Chocolatey's built-in package repository, which is hosted by Chocolatey and can be accessed by all Chocolatey users. You can use this repository to publish and share packages with your team or organization.
 
 Another option is to use a private package repository, which is hosted on your own servers and is only accessible to your organization. You can use tools such as ProGet or MyGet to create and manage private package repositories for Chocolatey packages.
 
-9.How can you use Chocolatey in conjunction with other DevOps tools, such as Jenkins or Azure DevOps, to automate the delivery and management of software in an Azure environment?
+## 9.How can you use Chocolatey in conjunction with other DevOps tools, such as Jenkins or Azure DevOps, to automate the delivery and management of software in an Azure environment?
 
 Chocolatey can be used in conjunction with other DevOps tools, such as Jenkins or Azure DevOps, to automate the delivery and management of software in an Azure environment. For example, you might use Jenkins to automate the building and testing of software packages, and then use Chocolatey to automatically install the packages on Azure virtual machines as part of a continuous deployment process.
 
