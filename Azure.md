@@ -54,14 +54,14 @@ Chocolatey is a package manager for Windows that allows you to install software 
 2. How can Chocolatey be used to install and manage software packages on a Windows machine?
 To install a software package using Chocolatey, you can use the "choco install" command followed by the name of the package you want to install. For example, to install the Azure CLI, you can use the following command:
 
-        ```
-        choco install azure-cli
-        ```
-        To update a package that has already been installed using Chocolatey, you can use the "choco upgrade" command followed by the name of the package. For example:
+```
+choco install azure-cli
+```
+To update a package that has already been installed using Chocolatey, you can use the "choco upgrade" command followed by the name of the package. For example:
 
-        ```
-        choco upgrade azure-cli
-        ```
+```
+choco upgrade azure-cli
+```
 
 3. What is Azure and how does it relate to cloud computing?
 Azure is a cloud computing platform and infrastructure created by Microsoft for building, deploying, and managing applications and services through a global network of Microsoft-managed data centers. It provides a range of cloud computing services, including virtual machines, storage, and networking, as well as a range of tools and services for developing and managing applications.
@@ -72,21 +72,21 @@ Chocolatey can be used to install and manage tools or libraries that are require
 5.How can the Azure CLI be used to manage Azure resources from the command line?
 The Azure CLI is a set of command-line tools that you can use to manage Azure resources. It provides a range of commands for creating, modifying, and deleting resources such as virtual machines, storage accounts, and resource groups.
 
-        ### Here are some examples of how you can use the Azure CLI to manage Azure resources:
+### Here are some examples of how you can use the Azure CLI to manage Azure resources:
 
-        #### List all of the resource groups in your Azure subscription:
-        ```cli
-        az group list
-        ```
-       #### Create a new resource group:
-        ```cli
-        az group create --name myResourceGroup --location eastus
-        
-        ```
-        #### Deploy a new virtual machine:
-        ```cli
-        az vm create --resource-group myResourceGroup --name myVM --image UbuntuLTS --generate-ssh-keys
-        ```
+#### List all of the resource groups in your Azure subscription:
+```cli
+az group list
+```
+#### Create a new resource group:
+```cli
+az group create --name myResourceGroup --location eastus
+
+```
+#### Deploy a new virtual machine:
+```cli
+az vm create --resource-group myResourceGroup --name myVM --image UbuntuLTS --generate-ssh-keys
+```
 
 6.How can Chocolatey be used to automate the deployment of Azure resources?
 
