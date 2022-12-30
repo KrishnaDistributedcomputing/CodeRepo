@@ -70,7 +70,7 @@ greet('John', 'Hi') # Outputs: "Hi, John!"
 In this example, we call the greet function with two arguments: 'John' and 'Hi'. The default value of the greeting argument is overridden by the value 'Hi', so the function prints "Hi, John!".
 
 ### Can you provide an example of a function with both default and non-default arguments?
-Sure! Here is an example of a function with both default and non-default arguments:
+Example of a function with both default and non-default arguments:
 
 ```python
 def greet(greeting='Hello', name):
@@ -108,3 +108,16 @@ greet(name='Alice') # Outputs: "Hello, Alice!"
 greet(greeting='Hi', name='Alice') # Outputs: "Hi, Alice!"
 ```
 In this example, the greet function has two keyword arguments: greeting and name, both of which have default values. When we call the greet function with no arguments, the default values are used. When we call the greet function with one argument, the default value for the other argument is used. And when we call the greet function with both arguments, the default values are overridden by the values we provide.
+
+
+## Different type of Arguments in Python
+
+* Positional arguments: Positional arguments are arguments that are passed to a function in a specific order, based on the position of the argument in the function definition. Positional arguments are required, and must be provided when the function is called.
+
+* Keyword arguments: Keyword arguments are arguments that are passed to a function by specifying the parameter name and value in the function call. Keyword arguments are optional and can be provided in any order.
+
+* Default arguments: Default arguments are arguments that have a default value specified in the function definition. If a default argument is not provided when the function is called, the default value will be used.
+
+* Variable-length arguments: Variable-length arguments are arguments that allow a function to accept a variable number of arguments. There are two types of variable-length arguments in Python: *args and **kwargs. *args is used to capture a variable number of positional arguments, and **kwargs is used to capture a variable number of keyword arguments.
+
+* Optional arguments: Optional arguments are arguments that are not required when the function is called, but can be provided if needed. Optional arguments can be implemented using default arguments or variable-length arguments.
