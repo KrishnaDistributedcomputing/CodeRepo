@@ -121,3 +121,38 @@ In this example, the greet function has two keyword arguments: greeting and name
 * Variable-length arguments: Variable-length arguments are arguments that allow a function to accept a variable number of arguments. There are two types of variable-length arguments in Python: *args and **kwargs. *args is used to capture a variable number of positional arguments, and **kwargs is used to capture a variable number of keyword arguments.
 
 * Optional arguments: Optional arguments are arguments that are not required when the function is called, but can be provided if needed. Optional arguments can be implemented using default arguments or variable-length arguments.
+
+
+## How **kwargs are stored in python
+
+In Python, the **kwargs syntax is used to define a function that can accept a variable number of keyword arguments. When a function with **kwargs is called, any extra keyword arguments are packed into a dictionary and stored in the variable kwargs.
+
+Here is an example of a function with **kwargs in Python:
+
+```python
+def greet(**kwargs):
+  print(f'Hello, {", ".join(f"{key}={value}" for key, value in kwargs.items())}!')
+
+greet(name='John', age=30, city='New York') # Outputs: "Hello, name=John, age=30, city=New York!"
+```
+In this example, the greet function has a single parameter **kwargs, which is used to capture a variable number of keyword arguments. When we call the greet function with three keyword arguments: name='John', age=30, and city='New York', these arguments are packed into a dictionary and stored in the kwargs variable.
+
+Inside the function, we use the items method of the kwargs dictionary to iterate over the key-value pairs, and then use the join method of the str class to join the key-value pairs into a single string, separated by commas.
+
+
+## How *args are stored in python 
+In Python, the *args syntax is used to define a function that can accept a variable number of positional arguments. When a function with *args is called, any extra positional arguments are packed into a tuple and stored in the variable args.
+
+Here is an example of a function with *args in Python:
+```python
+
+def greet(*args):
+  print(f'Hello, {", ".join(args)}!')
+
+greet('John', 'Alice', 'Bob') # Outputs: "Hello, John, Alice, Bob!"
+```
+
+In this example, the greet function has a single parameter *args, which is used to capture a variable number of positional arguments. When we call the greet function with three arguments: 'John', 'Alice', and 'Bob', these arguments are packed into a tuple and stored in the args variable.
+
+Inside the function, we use the join method of the str class to join the elements of the args tuple into a single string, separated by commas.
+
