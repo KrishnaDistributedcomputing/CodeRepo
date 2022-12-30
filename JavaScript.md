@@ -88,6 +88,9 @@ These are just a few examples of the many native objects that are available in H
 </body>
 </html>
 ```
+
+In this example, we have an HTML document with a button element and a heading h1. We use a script to add an event listener to the button that listens for the click event. When the button is clicked, the script gets a reference to the heading element using the querySelector method of the Document object and changes its text content using the textContent property.
+
 ## = Vs == Javascript Operator
 
 In JavaScript, = is used for assignment, == is used for comparison, and === is used for strict comparison.
