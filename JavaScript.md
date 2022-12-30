@@ -17,6 +17,34 @@ These are just a few examples of the many native objects that are available in J
 
 ![image](https://user-images.githubusercontent.com/117572861/210025054-8bfd3fa6-295d-4e83-9bef-e2b20e5188cb.png)
 
+![image](https://user-images.githubusercontent.com/117572861/210025185-c00150d5-fe93-4acd-8bd4-7b6eff0c03f7.png)
+
+
+### Here is an example of using the String object in JavaScript:
+```JS
+// Create a new string object
+const str = new String('hello world');
+```
+```JS
+// Use the toUpperCase method to convert the string to uppercase
+const uppercaseStr = str.toUpperCase();
+```
+
+```JS
+// Print the original and uppercase strings to the console
+console.log(str); // Outputs: "hello world"
+console.log(uppercaseStr); // Outputs: "HELLO WORLD"
+```
+
+To test this example in a browser, you can open the JavaScript console in your browser and paste the code there. When you run the code, it will create a new String object called str with the value 'hello world', and then use the toUpperCase method to convert the string to uppercase. Finally, it will print the original and uppercase strings to the console.
+
+You should see the following output in the console:
+
+```JS
+"hello world"
+"HELLO WORLD"
+```
+
 ## = Vs == Javascript Operator
 
 In JavaScript, = is used for assignment, == is used for comparison, and === is used for strict comparison.
