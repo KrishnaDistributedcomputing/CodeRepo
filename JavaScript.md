@@ -19,6 +19,10 @@ These are just a few examples of the many native objects that are available in J
 
 ![image](https://user-images.githubusercontent.com/117572861/210025185-c00150d5-fe93-4acd-8bd4-7b6eff0c03f7.png)
 
+![image](https://user-images.githubusercontent.com/117572861/210025326-09d33e8d-4681-4d09-a80c-6a98a34f93cb.png)
+
+![image](https://user-images.githubusercontent.com/117572861/210025338-fc1ed154-2d69-4664-b7bc-038c39e8855b.png)
+
 
 ### Here is an example of using the String object in JavaScript:
 ```JS
@@ -45,6 +49,17 @@ You should see the following output in the console:
 "HELLO WORLD"
 ```
 
+### What are the native objects in HTML 
+
+In HTML (HyperText Markup Language), native objects are objects that are built into the language and are always available for use when writing HTML documents. These objects are defined in the HTML specification and are implemented in web browsers, such as Google Chrome, Mozilla Firefox, and Safari.
+
+Some examples of native objects in HTML include:
+
+Document: The root object of the HTML document. It represents the entire HTML document and provides methods and properties for accessing and manipulating the document's content and structure.
+Element: An object that represents an HTML element in the document. Elements have properties and methods for accessing and modifying their attributes, content, and style.
+NodeList: An object that represents a list of nodes (elements, text, comments, etc.) in the document. NodeLists have methods for accessing and manipulating their elements, such as item and forEach.
+Event: An object that represents an event that has occurred in the document, such as a mouse click or a key press. Events have properties and methods for accessing and handling the event data.
+These are just a few examples of the many native objects that are available in HTML. You can find a complete list of native objects in the HTML specification or in the documentation for your web browser.
 ## = Vs == Javascript Operator
 
 In JavaScript, = is used for assignment, == is used for comparison, and === is used for strict comparison.
