@@ -1,4 +1,4 @@
-Python Default and Non-Default Arguments
+## Python Default and Non-Default Arguments
 
 In Python, you can define a function with default arguments, which are values that will be used as the default for the corresponding parameters if no value is passed to the function when it is called. Default arguments are specified by giving a default value in the function definition.
 
@@ -25,46 +25,51 @@ On the other hand, if we call greet('John', 'Hi'), the name parameter is still g
 
 Here are some interview questions related to default and non-default arguments in Python, along with sample answers:
 
-How do you define a default argument in a Python function?
+### How do you define a default argument in a Python function?
+
 To define a default argument in a Python function, you can give the parameter a default value in the function definition. For example:
 
-Copy code
+```python
 def greet(name, greeting='Hello'):
   print(f'{greeting}, {name}!')
 In this example, the greet function has a default argument greeting with a default value of 'Hello'. If the greet function is called without a value for this parameter, the default value will be used.
 
-Can you provide an example of a function with default arguments?
-Sure! Here is an example of a function with default arguments:
+### Can you provide an example of a function with default arguments?
+Example of a function with default arguments:
 
-Copy code
+```python
 def greet(name, greeting='Hello'):
   print(f'{greeting}, {name}!')
 
 greet('John') # Outputs: "Hello, John!"
 greet('John', 'Hi') # Outputs: "Hi, John!"
+```
 In this example, the greet function has a default argument greeting with a default value of 'Hello'. If the greet function is called without a value for this parameter, the default value will be used.
 
-How do you call a function with default arguments in Python?
+### How do you call a function with default arguments in Python?
 To call a function with default arguments in Python, you can simply call the function and omit the arguments that have default values. For example:
 
-Copy code
+```python
 def greet(name, greeting='Hello'):
   print(f'{greeting}, {name}!')
 
 greet('John') # Outputs: "Hello, John!"
+```
+
 In this example, we call the greet function with a single argument 'John', and the greeting argument is given the default value 'Hello'.
 
-What happens if you call a function with default arguments and provide values for some of the parameters?
+### What happens if you call a function with default arguments and provide values for some of the parameters?
 If you call a function with default arguments and provide values for some of the parameters, the default values will be overridden by the values you provide. For example:
 
-Copy code
+```python
 def greet(name, greeting='Hello'):
   print(f'{greeting}, {name}!')
 
 greet('John', 'Hi') # Outputs: "Hi, John!"
+```
 In this example, we call the greet function with two arguments: 'John' and 'Hi'. The default value of the greeting argument is overridden by the value 'Hi', so the function prints "Hi, John!".
 
-Can you provide an example of a function with both default and non-default arguments?
+### Can you provide an example of a function with both default and non-default arguments?
 Sure! Here is an example of a function with both default and non-default arguments:
 
 ```python
@@ -77,7 +82,7 @@ greet('Hi', 'John') # Outputs: "Hi, John!"
 
 In this example, the greet function has two arguments: greeting and name. The greeting argument has a default value
 
-what are the positional and key word arguments
+### what are the positional and key word arguments
 In Python, positional arguments are arguments that are passed to a function in a specific order, based on the position of the argument in the function definition. Positional arguments are required, and must be provided when the function is called.
 
 Here is an example of a function with positional arguments in Python:
