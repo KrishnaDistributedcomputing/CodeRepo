@@ -156,3 +156,33 @@ In this example, the greet function has a single parameter *args, which is used 
 
 Inside the function, we use the join method of the str class to join the elements of the args tuple into a single string, separated by commas.
 
+
+## Sample code to take user inputs and do maths calcuation 
+
+In this program, we define a function perform_operation that takes three arguments: a, b, and choice. The function uses an if-elif-else statement to check the value of choice and perform the corresponding operation.
+
+Then, we accept values for a and b from the user, as well as a choice for the operation. Finally, we call the perform_operation function with the values of a, b, and choice and print the result.
+
+```python
+def perform_operation(a, b, choice):
+  if choice == 1:
+    return a + b
+  elif choice == 2:
+    return a - b
+  elif choice == 3:
+    return a * b
+  elif choice == 4:
+    return a / b
+  else:
+    return "Invalid choice"
+
+# Accept values and choice from the user
+a = float(input("Enter a value for a: "))
+b = float(input("Enter a value for b: "))
+choice = int(input("Enter your choice (1=Add, 2=Sub, 3=Mul, 4=Div): "))
+
+# Perform the operation and print the result
+result = perform_operation(a, b, choice)
+print(result)
+
+```
