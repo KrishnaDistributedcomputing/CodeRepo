@@ -55,10 +55,11 @@ In HTML (HyperText Markup Language), native objects are objects that are built i
 
 Some examples of native objects in HTML include:
 
-Document: The root object of the HTML document. It represents the entire HTML document and provides methods and properties for accessing and manipulating the document's content and structure.
-Element: An object that represents an HTML element in the document. Elements have properties and methods for accessing and modifying their attributes, content, and style.
-NodeList: An object that represents a list of nodes (elements, text, comments, etc.) in the document. NodeLists have methods for accessing and manipulating their elements, such as item and forEach.
-Event: An object that represents an event that has occurred in the document, such as a mouse click or a key press. Events have properties and methods for accessing and handling the event data.
+* Document: The root object of the HTML document. It represents the entire HTML document and provides methods and properties for accessing and manipulating the document's content and structure.
+* Element: An object that represents an HTML element in the document. Elements have properties and methods for accessing and modifying their attributes, content, and style.
+* NodeList: An object that represents a list of nodes (elements, text, comments, etc.) in the document. NodeLists have methods for accessing and manipulating their elements, such as item and forEach.
+* Event: An object that represents an event that has occurred in the document, such as a mouse click or a key press. Events have properties and methods for accessing and handling the event data.
+
 These are just a few examples of the many native objects that are available in HTML. You can find a complete list of native objects in the HTML specification or in the documentation for your web browser.
 ## = Vs == Javascript Operator
 
