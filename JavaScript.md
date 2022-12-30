@@ -61,6 +61,33 @@ Some examples of native objects in HTML include:
 * Event: An object that represents an event that has occurred in the document, such as a mouse click or a key press. Events have properties and methods for accessing and handling the event data.
 
 These are just a few examples of the many native objects that are available in HTML. You can find a complete list of native objects in the HTML specification or in the documentation for your web browser.
+
+
+### Sample HTML Code 
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My HTML Page</title>
+</head>
+<body>
+  <h1>Hello World!</h1>
+  <p>Click the button below to change the text of the heading:</p>
+  <button id="btn">Change Heading</button>
+  <script>
+    // Get a reference to the button element
+    const btn = document.getElementById('btn');
+
+    // Add an event listener to the button that changes the text of the heading
+    btn.addEventListener('click', () => {
+      const h1 = document.querySelector('h1');
+      h1.textContent = 'Text Changed!';
+    });
+  </script>
+</body>
+</html>
+```
 ## = Vs == Javascript Operator
 
 In JavaScript, = is used for assignment, == is used for comparison, and === is used for strict comparison.
