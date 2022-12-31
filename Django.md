@@ -1,3 +1,11 @@
+## What is re_path
+re_path is a function in Django that is used to define URL patterns for Django web applications. It is a function in the django.urls module that takes in a regular expression pattern and a view function as arguments, and returns a URL pattern.
+
+In the example you provided, re_path is being used to define a URL pattern that will match the string 'date'. When this URL pattern is matched, the view function views.input will be called.
+
+For example, if a user navigates to http://example.com/date, the views.input view function will be called and will handle the request. The view function is responsible for returning a response to the user, such as an HTML page or a JSON object.
+
+It's important to note that re_path is just one of the functions available in Django for defining URL patterns. Other options include path, url, and include. Each of these functions has its own specific use case and syntax.
 
 ## Different type of URLS in Django
 There are several types of URLs that you can use in a Django web application. Some common examples include:
