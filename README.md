@@ -1,7 +1,7 @@
 
  
 
-# Azure Service Retirements Script User Manual
+# Azure Service Retirements Script User Manual for HTML Generation
 This script fetches the Azure retirements feed and generates an HTML document with a list of retired Azure services, along with their retirement date.
 
 ## Requirements
