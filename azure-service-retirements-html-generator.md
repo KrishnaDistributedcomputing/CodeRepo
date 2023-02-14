@@ -42,3 +42,6 @@ Print the HTML document:
 The final step is to print the generated HTML document to the console using the print() function.
 
 That's it! With this script, you can easily keep track of Azure service retirements and their dates. You can also modify it to fit your specific needs.
+
+## Generating Non-HTML Version 
+https://github.com/KrishnaDistributedcomputing/CodeRepo/blob/main/azure-service-retirements-generator.md
