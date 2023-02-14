@@ -1,5 +1,14 @@
 
- 
+## Azure Service Retirements Python Script User Guide
+Overview
+The Azure Service Retirements Python script is a simple tool that fetches a feed of retired Azure services from Microsoft's website and generates an output with hyperlinks to the title of each entry along with its retirement date.
+
+## Requirements
+Python 3
+re library
+requests library
+feedparser library
+datetime library
 
 # Azure Service Retirements Script User Manual for HTML Generation
 This script fetches the Azure retirements feed and generates an HTML document with a list of retired Azure services, along with their retirement date.
