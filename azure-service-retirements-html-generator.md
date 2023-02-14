@@ -14,7 +14,7 @@ Required libraries:
 ## Usage:
 
 * Open your preferred IDE or a terminal and create a new Python file.
-* Copy and paste the script code into the new file.
+* Copy and paste the [https://github.com/KrishnaDistributedcomputing/CodeRepo/blob/main/azure_service_retirements_html.py] (script code) into the new file.
 * Save the file with a .py extension.
 * Run the script and the output will be the generated HTML document.
 
