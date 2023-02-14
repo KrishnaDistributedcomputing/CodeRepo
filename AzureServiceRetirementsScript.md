@@ -21,8 +21,9 @@ To use the script, follow these steps:
 Open your terminal and navigate to the directory where the script is saved.
 Run the script by executing the following command:
 
+https://github.com/KrishnaDistributedcomputing/CodeRepo/blob/main/azure-retirements.py
 ``` python
-python azure_service_retirements.py
+python azure-retirements.py
 ```
 The script will fetch the Azure retirements feed and generate an output with hyperlinks to the title of each entry along with its retirement date. The output will be printed to the console.
 
