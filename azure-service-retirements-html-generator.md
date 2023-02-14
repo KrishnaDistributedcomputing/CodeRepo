@@ -11,13 +11,14 @@ Required libraries:
 * feedparser
 * datetime
 
-Usage:
+## Usage:
 
-Open your preferred IDE or a terminal and create a new Python file.
-Copy and paste the script code into the new file.
-Save the file with a .py extension.
-Run the script and the output will be the generated HTML document.
-Explanation of Script Code:
+* Open your preferred IDE or a terminal and create a new Python file.
+* Copy and paste the script code into the new file.
+* Save the file with a .py extension.
+* Run the script and the output will be the generated HTML document.
+
+## Explanation of Script Code:
 
 Import required libraries:
 The first step is to import the necessary libraries to be used in the script. These are: re, requests, feedparser, and datetime. These libraries allow us to extract and manipulate data from the Azure retirements feed.
