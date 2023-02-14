@@ -1,4 +1,4 @@
-# azure_service_retirements.py
+
  
 
 # Azure Service Retirements Script User Manual
