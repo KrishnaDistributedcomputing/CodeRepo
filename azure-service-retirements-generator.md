@@ -32,3 +32,6 @@ You can change the regular expression used to extract the retirement date from t
 
 ## Conclusion
 The Azure Service Retirements Python script is a simple tool that can help you keep track of retired Azure services. With a few simple modifications, you can customize the output to suit your needs.
+
+## Generating HTML Version
+https://github.com/KrishnaDistributedcomputing/CodeRepo/blob/main/azure-service-retirements-html-generator.md
