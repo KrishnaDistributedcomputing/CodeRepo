@@ -16,12 +16,12 @@ pip install requests feedparser
 ```
 
 ## Usage
-To use the script, follow these steps:
+To use the script [azure-retirements.py](https://github.com/KrishnaDistributedcomputing/CodeRepo/blob/main/azure-retirements.py), follow these steps:
 
 Open your terminal and navigate to the directory where the script is saved.
 Run the script by executing the following command:
 
-https://github.com/KrishnaDistributedcomputing/CodeRepo/blob/main/azure-retirements.py
+
 ``` python
 python azure-retirements.py
 ```
