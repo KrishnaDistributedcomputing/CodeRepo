@@ -32,13 +32,17 @@ feedparser: parses the feed into a structured format
 datetime: provides support for date and time functions
 To install the libraries, run the following command:
 
-``python
+ 
+`` python
 pip install requests feedparser
+``
+ 
 Usage
 To run the script, simply execute it in a Python environment by running the following command in your terminal:
 
-``python
+`` python
 python azure_service_retirements.py
+`` 
 The script will fetch the Azure retirements feed and generate an HTML document with hyperlinks to the title of each entry, along with its retirement date. The output will be printed to the console.
 
 Customization
