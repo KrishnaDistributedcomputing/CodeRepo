@@ -33,13 +33,6 @@ The script uses the following libraries:
 - `feedparser`: parses the feed into a structured format
 - `datetime`: provides support for date and time functions
 
-The script performs the following steps:
-1. Defines the URL of the Azure retirements feed
-2. Fetches the feed using the `requests` library
-3. Parses the feed into a structured format using the `feedparser` library
-4. Sorts the feed entries by `lastBuildDate` using the `sorted` function and the `datetime` library
-5. Generates an HTML document with hyperlinks to the title of each entry, along with its retirement date
-6. Uses regular expressions to extract the date from the title and adds it below the title in the HTML document
 
 The script performs the following steps:
 1. Defines the URL of the Azure retirements feed
